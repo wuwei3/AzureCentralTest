@@ -1,0 +1,81 @@
+package com.orangelabs.iot.azure.central.IOTAzureCentralTest.testsend.model;
+
+public class PushData {
+	
+	private String id;
+	
+	private String deviceId;
+	
+	//private String fiveKB;
+	
+	private String insertTime;
+	
+//	private ConfigUpdate configUpdate = new ConfigUpdate();
+//	
+//	private FirmwareUpdate firmwareUpdate = new FirmwareUpdate();
+
+	public String getDeviceId() {
+		return deviceId;
+	}
+
+	public void setDeviceId(String deviceId) {
+		this.deviceId = deviceId;
+	}
+
+//	public ConfigUpdate getConfigUpdate() {
+//		return configUpdate;
+//	}
+//
+//	public void setConfigUpdate(ConfigUpdate configUpdate) {
+//		this.configUpdate = configUpdate;
+//	}
+//
+//	public FirmwareUpdate getFirmwareUpdate() {
+//		return firmwareUpdate;
+//	}
+//
+//	public void setFirmwareUpdate(FirmwareUpdate firmwareUpdate) {
+//		this.firmwareUpdate = firmwareUpdate;
+//	}
+
+//	public String getFiveKB() {
+//		return "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";
+//	
+//		//return "zhe shi 5KB";
+//	}
+//
+//	public void setFiveKB(String fiveKB) {
+//		this.fiveKB = fiveKB;
+//	}
+
+	public String getInsertTime() {
+		return insertTime;
+	}
+
+	public void setInsertTime(String insertTime) {
+		this.insertTime = insertTime;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+	
+	@Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+ 
+        PushData pd = (PushData) o;
+ 
+        return id.equals(pd.id);
+    }
+ 
+    @Override
+    public int hashCode() {
+        return id.hashCode();
+    }
+}
